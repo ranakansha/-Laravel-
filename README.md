@@ -13,9 +13,17 @@ setp 2 : go inside  project dir and run serve command
 php artisan serve
 
 for publicly acceble your directory without  http://127.0.0.1:8000 
+
+
 1 > Go inside public folder
+
+
 2> copy .htaccess and index.php file inside your home dir 
+
+
 3> open index.php file that are in home dir in vs code and paste the following code
+
+
 ```
 <?php
 
@@ -44,4 +52,7 @@ require_once __DIR__.'/public/index.php';
 
 ```
 4 > run php artisan serve 
+
+
+
 5 > open browser and type localhost/projectname
