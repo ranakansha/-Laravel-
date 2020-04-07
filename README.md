@@ -1,4 +1,4 @@
-# -Laravel-
+# -Laravel Installation -
 ## prerequistes
 Php,
 Xampp,
@@ -44,4 +44,4 @@ require_once __DIR__.'/public/index.php';
 
 ```
 4 > run php artisan serve 
-5. open browser and type localhost/projectname
+5 > open browser and type localhost/projectname
